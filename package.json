@@ -1,0 +1,15 @@
+{
+  "name": "arhipetros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "tailwindcss -i ./main.css -o ./css/main.css",
+    "start": "tailwindcss -i ./main.css -o ./css/main.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
