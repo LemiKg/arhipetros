@@ -4,6 +4,6 @@
 
 @layer components {
   .project {
-    @apply md:basis-1/2;
+    @apply md:basis-1/2 p-2;
   }
 }

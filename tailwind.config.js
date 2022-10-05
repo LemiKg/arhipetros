@@ -5,9 +5,13 @@ module.exports = {
   content: ['./*html'],
   theme: {
     extend: {
+      backgroundImage: {
+        'body-background': 'url("../assets/images/pozadina.webp")'
+      },
       colors: {
+        'background': '#000',
         'base-color': 'rgb(100, 34, 63)',
-        'meta-text-color': '#999',
+        'text-color': '#fff',
         'base-background': '#fff',
         'menu-icon': '#fff',
         'menu-shadow': '#e5e5e5',
