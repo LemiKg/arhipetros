@@ -9,13 +9,18 @@ module.exports = {
         'body-background': 'url("../assets/images/pozadina.webp")'
       },
       colors: {
-        'background': '#000',
-        'base-color': 'rgb(100, 34, 63)',
-        'text-color': '#fff',
-        'base-background': '#fff',
-        'menu-icon': '#fff',
-        'menu-shadow': '#e5e5e5',
-        'side-divider': '#2146a1'
+        // 'background': '#000',
+        // 'base-color': 'rgb(100, 34, 63)',
+        // 'text-color': '#fff',
+        // 'base-background': '#fff',
+        // 'menu-icon': '#fff',
+        // 'menu-shadow': '#e5e5e5',
+        // 'side-divider': '#2146a1',
+
+        'dark-color': '#100F0F',
+        'primary-color': '#0F3D3E',
+        'light-color': '#F1F1F1',
+        'secondary-color': '#E2DCC8'
       },
       gridTemplateColumns: {
         'content-layout': 'auto 300px'
