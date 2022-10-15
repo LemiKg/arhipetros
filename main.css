@@ -6,4 +6,8 @@
   .project {
     @apply md:basis-1/2 p-2;
   }
+
+  .bg-after {
+    @apply after:block after:absolute after:inset-0 after:bg-after-darken-color;
+  }
 }
